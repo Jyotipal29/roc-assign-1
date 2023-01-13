@@ -1,0 +1,113 @@
+:root {
+    /* --primary-color: #2C1C25; */
+    --primary-color: #fff;
+    /* --creamy-color: #EAE7C8; */
+    --sec-color: #3b82f6;
+    --body-bg-color: #fff;
+    --body-text-color: #000;
+    --container-bg-color: #fff;
+    --container-box-shadow-color: rgba(0, 0, 0, 0.24);
+    --btn-bg-color: var(--primary-color);
+    --btn-text-color: var(--sec-color);
+}
+
+.dark-mode {
+    /* --primary-color: #C1B791; */
+    --body-bg-color: #333;
+    --body-text-color: #fff;
+    --container-bg-color: #222;
+    --container-box-shadow-color: rgb(0, 0, 0);
+    --btn-bg-color: var(--sec-color);
+    --btn-text-color: var(--primary-color);
+}
+
+body {
+    background-color: var(--body-bg-color);
+    color: var(--body-text-color);
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-col {
+    flex-direction: column;
+}
+
+.container{
+    background-color: var(--container-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--container-box-shadow-color) 0px 3px 8px;
+    max-width: 500px;
+    margin: 100px auto;
+}
+.wrapper{
+    border:1px solid black;
+    width:100%;
+    
+}
+.form-heading{
+    text-align: center;
+    text-transform: uppercase;
+}
+.code{
+    border:1px solid #777;
+    padding:5px;
+    width:200px;
+    height: 40px;
+}
+.code img {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+form{
+    width:100%;
+margin: 20px 0px;
+
+}
+.form-control{
+    width:80%;
+    
+}
+ .form-control input{
+    padding:10px;
+    display: block;
+    width:100%;
+}
+.form-control small{
+    display: block;
+    text-transform: uppercase;
+    color:#777;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.error-msg{
+    text-transform: uppercase;
+    color:red;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+button {
+    background-color: var(--btn-bg-color);
+    color: var(--btn-text-color);
+    cursor: pointer;
+
+    
+}
+
+.submit-btn{
+    padding: 10px 20px;
+    display: block;
+    width:84%;
+    margin-left:20px;
+    margin-top: 10px;
+}
+.refresh-btn{
+    background-color: transparent;
+    border:none;
+    color:black;
+}

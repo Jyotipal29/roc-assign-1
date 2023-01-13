@@ -1,0 +1,46 @@
+.captcha-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0, 0, 0.5);
+    animation: fade 300ms;
+}
+
+.captcha-overlay .captcha-content {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.cap{
+    margin-top:10px;
+    margin-left:10px;
+    width:80%;
+    display: flex;
+    justify-content: flex-start;
+}
+.sub-form{
+    display: flex;
+    width:80%;
+    justify-content: space-between;
+    margin:10px;
+    padding:10px;
+}
+.sub-form input{
+padding:10px;
+width:80%;
+outline: none;
+}
+.sub-sec{
+border :1px solid #777;
+}
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 100%;
+    }
+}
