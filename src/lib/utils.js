@@ -8,5 +8,3 @@ export function generateCode(length) {
 
   return result;
 }
-
-// no i like it in flex-start only
